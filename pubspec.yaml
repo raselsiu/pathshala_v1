@@ -1,0 +1,127 @@
+name: sunamonir_pathshala
+description: A Children Learning Application for Early Stage
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  google_mobile_ads: ^4.0.0
+  flutter_staggered_grid_view: ^0.7.0
+  auto_size_text: ^3.0.0
+  audioplayers: ^5.2.1
+  just_audio: ^0.9.42
+  connectivity_plus: ^6.1.0
+  font_awesome_flutter: ^10.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+   - assets/quiz_data/gk_quiz.json
+   - assets/images/
+   - assets/images/sorborno/
+   - assets/images/arabic/
+   - assets/images/bangla/kobita/
+   - assets/images/benjonborno/
+   - assets/audios/sorborno/
+   - assets/audios/
+   - assets/audios/benjonborno/
+   - assets/images/mathematics/png/
+   - assets/images/mathematics/numbers/
+   - assets/images/mathematics/addition/
+   - assets/images/mathematics/subtraction/
+   - assets/images/mathematics/multiplication/
+   - assets/images/mathematics/division/
+   - assets/images/mathematics/akok/
+   - assets/images/mathematics/compare/
+   - assets/images/mathematics/serial/
+   - assets/images/mathematics/geometry/
+   - assets/images/human_body/png/
+   - assets/images/english/png/
+   - assets/images/general_knowledge/png/
+   - assets/images/general_knowledge/
+   - assets/images/general_knowledge/logo/
+   - assets/images/arabic/alphabets/
+   - assets/images/arabic/surah_img/
+   - assets/images/english/alphabet/capital_letter/
+   - assets/images/english/alphabet/small_letter/
+   - assets/images/english/alphabet/word/
+   - assets/images/english/alphabet/fillin_the_gap/
+   - assets/images/english/alphabet/sentence/
+   - assets/images/english/numbers/
+   - assets/images/computer/
+   - assets/images/computer/intro/
+   - assets/images/computer/parts/
+   - assets/images/computer/main_work/
+   - assets/images/computer/internet/
+   - assets/images/computer/use_roles/
+   - assets/images/computer/security/
+   - assets/images/computer/future_pc/
+   - assets/images/sports/
+   - assets/images/exercise/
+   - assets/images/english/planet/
+   - assets/images/english/rhymes/
+   - assets/images/english/animals/
+   - assets/images/english/fruits/
+   - assets/images/english/flowers/
+   - assets/images/english/fish/
+   - assets/images/english/birds/
+   - assets/images/english/vegetable/
+   - assets/images/english/color/
+   - assets/images/english/dmy/
+   - assets/images/english/food/
+   - assets/images/english/garments/
+   - assets/images/english/profession/
+   - assets/images/english/shapes/
+   - assets/images/english/trans/
+
+
+  fonts:
+    - family: 'Nikosh'
+      fonts:
+        - asset: assets/fonts/Nikosh.ttf
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Regular.ttf
+    - family: 'Li SK Bishal'
+      fonts:
+        - asset: 'assets/fonts/Li SK Bishal Unicode.ttf'
+    - family: Lato
+      fonts:
+        - asset: 'assets/fonts/Lato-Regular.ttf'
+    - family: 'Uthmanic Script'
+      fonts:
+        - asset: 'assets/fonts/uthmanic_script.otf'
+    - family: 'Li Shohid Shafkat Samir Unicode'
+      fonts:
+        - asset: 'assets/fonts/samir_font.ttf'
+    - family: '"Kanit", sans-serif'
+      fonts:
+        - asset: 'assets/fonts/Kanit-SemiBold.ttf'
+    - family: 'NotoSansBengali'
+      fonts:
+        - asset: 'assets/fonts/NotoSansBengali_Regular.ttf'
+
+
+#  fonts:
+#    - family: Nikosh
+#      fonts:
+#        - asset: assets/fonts/Schyler-Regular.ttf
+#        - asset: fonts/Schyler-Italic.ttf
+#          style: italic
+#    - family: Trajan Pro
+#      fonts:
+#        - asset: fonts/TrajanPro.ttf
+#        - asset: fonts/TrajanPro_Bold.ttf
+#          weight: 700
