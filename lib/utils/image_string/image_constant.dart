@@ -659,6 +659,14 @@ class ImageConstant {
   static const String gDivider = "assets/images/mathematics/geometry/divider.png";
   static const String gEraser = "assets/images/mathematics/geometry/eraser.png";
 
+  //   Geometry | Bindu - Rekha - Kun
+  static const String geobrk01 = "assets/images/mathematics/geometry/bindu__rekha_kun_01.png";
+  static const String geobrk02 = "assets/images/mathematics/geometry/bindu__rekha_kun_02.png";
+  static const String geobrk03 = "assets/images/mathematics/geometry/bindu__rekha_kun_03.png";
+
+//   Geometry | Different Angle
+  static const String rightAngle = "assets/images/mathematics/geometry/90_degree.png";
+
 //   Serial
   static const String mthSerial1 = "assets/images/mathematics/serial/s1.png";
   static const String mthSerial2 = "assets/images/mathematics/serial/s2.png";

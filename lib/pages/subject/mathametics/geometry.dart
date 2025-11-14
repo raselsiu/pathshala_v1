@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:sunamonir_pathshala/base_scaffold.dart';
+import 'package:sunamonir_pathshala/pages/subject/mathametics/geometry/bindu_rekha_kun.dart';
 import 'package:sunamonir_pathshala/pages/subject/mathametics/geometry/geometry_box.dart';
 import 'package:sunamonir_pathshala/pages/subject/mathametics/geometry/intro.dart';
 import 'package:sunamonir_pathshala/pages/subject/sports/pages/sports_type.dart';
@@ -74,7 +75,7 @@ class Geometry extends StatelessWidget {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => const SportsType(),
+                        builder: (context) => const GeometryBinduRekhaKun(),
                       ),
                     );
                   },
