@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
-import 'package:sunamonir_pathshala/pages/subject/mathametics/geometry/diff_angle_and_measure.dart';
+import 'package:sunamonir_pathshala/pages/homepage.dart';
 import 'package:sunamonir_pathshala/utils/text_string/string_constant.dart';
 
 void main() async {
@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const DiffAngleAndMeasure(),
+      home: const Homepage(),
       debugShowCheckedModeBanner: false,
     );
   }

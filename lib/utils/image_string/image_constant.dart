@@ -666,6 +666,13 @@ class ImageConstant {
 
 //   Geometry | Different Angle
   static const String rightAngle = "assets/images/mathematics/geometry/90_degree.png";
+  static const String sukkhoKun = "assets/images/mathematics/geometry/60_degree.png";
+  static const String sthuloKun = "assets/images/mathematics/geometry/120_degree.png";
+  static const String sorolKun = "assets/images/mathematics/geometry/180_degree.png";
+  static const String up180Degree = "assets/images/mathematics/geometry/180_up_degree.png";
+
+//   Diff Types Of Angles
+  static const String equalTriangle = "assets/images/mathematics/geometry/equal_triangle.png";
 
 //   Serial
   static const String mthSerial1 = "assets/images/mathematics/serial/s1.png";
