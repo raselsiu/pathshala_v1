@@ -673,6 +673,9 @@ class ImageConstant {
 
 //   Diff Types Of Angles
   static const String equalTriangle = "assets/images/mathematics/geometry/equal_triangle.png";
+  static const String somodibahu = "assets/images/mathematics/geometry/somodibahu.png";
+  static const String somokuni = "assets/images/mathematics/geometry/somokuni_tribujh.png";
+  static const String bisomobahu = "assets/images/mathematics/geometry/bisomobahu_tribujh.png";
 
 //   Serial
   static const String mthSerial1 = "assets/images/mathematics/serial/s1.png";

@@ -120,8 +120,8 @@ class _NativeAdWidgetState extends State<NativeAdWidget> {
   @override
   Widget build(BuildContext context) {
     if (!_isAdLoaded || _nativeAd == null) {
-      return const SizedBox();
-      // return _buildAdPlaceholder();
+      // return const SizedBox();
+      return _buildAdPlaceholder();
     }
 
     return Container(
